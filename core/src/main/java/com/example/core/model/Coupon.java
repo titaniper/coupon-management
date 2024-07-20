@@ -53,6 +53,7 @@ public class Coupon extends BaseTimeEntity {
         if (totalQuantity == null) {
             return true;
         }
+
         return totalQuantity > issuedQuantity;
     }
 
