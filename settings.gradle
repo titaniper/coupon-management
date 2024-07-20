@@ -1,1 +1,4 @@
 rootProject.name = 'coupon'
+
+// NOTE: 모듈을 최상위 프로젝트 하위로 관리
+include("core", "api", "consumer")
